@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.verypod.helloworld.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="王晓笛的第一个Android App"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Hawk"
+        tools:layout_editor_absoluteY="162dp"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build it Bigger"
+        tools:layout_editor_absoluteY="219dp"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Your App Material"
+        tools:layout_editor_absoluteY="276dp"
+        tools:layout_editor_absoluteX="79dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Ubiquitous"
+        tools:layout_editor_absoluteY="344dp"
+        tools:layout_editor_absoluteX="117dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        tools:layout_editor_absoluteY="422dp"
+        tools:layout_editor_absoluteX="132dp" />
+
+</android.support.constraint.ConstraintLayout>
